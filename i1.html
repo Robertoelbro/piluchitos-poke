@@ -21,22 +21,58 @@
 				<h2 class="nombre-empresa">Piluchitos LTDA</h2>
 			</div>
 			<nav>
-				<a href="" class="navlink">inicio</a>
+				<a href="i1.html" class="navlink">inicio</a>
 				<a href="" class="navlink">productos</a>
-				<a href="" class="navlink">sobre nosotros</a>
+				<a href="nosotros.html" class="navlink">sobre nosotros</a>
 				<a href="" class="navlink">carrito</a>
 			</nav>
 		</header>
 		<!--slider-->
 
-		<div class="slider-frame">
-			<ul>
-				<li><img src="Vaporeon.jpg" alt=""></li>
-				<li><img src="gardevoir.webp" alt=""></li>
-				<li><img src="Luponny.jpg" alt=""></li>
-				<li><img src="meowscarada.jpg" alt=""></li>
-			</ul>
-		</div>
+		<div id="slider">
+			<input type="radio" name="slider" id="slide1" checked>
+			<input type="radio" name="slider" id="slide2">
+			<input type="radio" name="slider" id="slide3">
+			<input type="radio" name="slider" id="slide4">
+			<div id="slides">
+			   <div id="overflow">
+				  <div class="inner">
+					 <div class="slide slide_1">
+						<div class="slide-content">
+						   <img src="Vaporeon.jpg" alt="">
+						</div>
+					 </div>
+					 <div class="slide slide_2">
+						<div class="slide-content">
+						<img src="meowscarada.jpg" alt="">
+						</div>
+					 </div>
+					 <div class="slide slide_3">
+						<div class="slide-content">
+						<img src="Luponny.jpg" alt="">
+						</div>
+					 </div>
+					 <div class="slide slide_4">
+						<div class="slide-content">
+						<img src="gardevoir.webp" alt="">
+						</div>
+					 </div>
+				  </div>
+			   </div>
+			</div>
+			<div id="controls">
+			   <label for="slide1"></label>
+			   <label for="slide2"></label>
+			   <label for="slide3"></label>
+			   <label for="slide4"></label>
+			</div>
+			<div id="bullets">
+			   <label for="slide1"></label>
+			   <label for="slide2"></label>
+			   <label for="slide3"></label>
+			   <label for="slide4"></label>
+			</div>
+		 </div>
 		
 		<!--footer-->
 		<footer class="pie-pagina">
