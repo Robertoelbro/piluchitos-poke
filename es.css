@@ -2,8 +2,7 @@
 body {
     background-image: url('fondo.jpg');
     background-size: cover;
-
-    position: relative; /* Para establecer un contexto de posicionamiento */
+    position: relative
 }
 
 body::before {
@@ -13,8 +12,8 @@ body::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Cambia este valor para ajustar la opacidad */
-    z-index: -1; /* Para que el pseudo-elemento esté detrás del contenido */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 /*banner*/
