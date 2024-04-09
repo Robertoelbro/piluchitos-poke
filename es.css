@@ -20,22 +20,19 @@ body::before {
    border-radius: 10px;
 }
 .alert {
-   width: 300px; /* Define el ancho deseado */
-   margin: 0 auto; /* Centra horizontalmente */
-   text-align: center; /* Centra el texto */
-   padding: 15px; /* Añade un poco de espacio alrededor del texto */
-   background-color: #d1ecf1; /* Color de fondo */
-   border: 1px solid #bee5eb; /* Borde */
-   border-radius: 5px; /* Ajusta la esquina del borde */
+   width: 300px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 15px; 
+   background-color: #d1ecf1; 
+   border: 1px solid #bee5eb; 
+   border-radius: 5px;
 }
 
 #cart {
   width: 50px;
 }
 /*banner*/
-#cart {
-   width: 50px;
- }
  
  header{
    color: white;
