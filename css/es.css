@@ -16,9 +16,6 @@ body::before {
    z-index: -1;
 }
 
-#logo_emp {
-   border-radius: 10px;
-}
 .alert {
    width: 300px; /* Define el ancho deseado */
    margin: 0 auto; /* Centra horizontalmente */
@@ -33,11 +30,7 @@ body::before {
   width: 50px;
 }
 /*banner*/
-#cart {
-   width: 50px;
- }
- 
- header{
+header{
    color: white;
    display: flex;
    min-height: 70px;
@@ -45,40 +38,40 @@ body::before {
    justify-content: space-between;
    align-items: center;
    padding: 10px;
- }
- 
- .logo{
+}
+
+.logo{
    display: flex;
    align-items: center;
- }
- 
- .logo img{
+}
+
+.logo img{
    height: 50px;
    margin-right: 0px;
- }
- 
- a{
+}
+
+a{
    text-decoration: none;
    color: white;
- }
- 
- nav a{
+}
+
+nav a{
    font-weight: 600;
    padding-right: 10px;
- }
- 
- nav a:hover{
+}
+
+nav a:hover{
    color:gray;
- }
- 
- @media (max-width:700px){
+}
+
+@media (max-width:700px){
    header{
        flex-direction: column;
    }
    nav{
        padding: 10px 0px;
    }
- }
+}
 
 h1{
    color: aqua;
@@ -195,7 +188,7 @@ h2 {
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4),
 #slide4:checked ~ #controls label:nth-child(1) {
-   background: url(assets/right-chevron.png) no-repeat;
+   background: url(right-chevron.png) no-repeat;
    float:right;
    margin: 0 -50px 0 0;
    background-size: 50px;
@@ -205,7 +198,7 @@ h2 {
 #slide2:checked ~ #controls label:nth-last-child(3),
 #slide3:checked ~ #controls label:nth-last-child(4),
 #slide4:checked ~ #controls label:nth-last-child(1) {
-   background: url(assets/left-chevron.png) no-repeat;
+   background: url(left-chevron.png) no-repeat;
    float:left;
    margin: 0 0 0 -50px;
    background-size: 50px;

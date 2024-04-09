@@ -41,8 +41,11 @@ nav a:hover{
   }
 }
 
+#cart{
+  width: 50px;
+}
 body {
-    background-image: url('fondo.jpg');
+    background-image: url('assets/fondo.jpg');
     background-size: cover;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;

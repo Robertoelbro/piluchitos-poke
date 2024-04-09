@@ -1,71 +1,14 @@
-header{
-  color: white;
-  display: flex;
-  min-height: 70px;
-  background-color: rgb(76, 133, 246);
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.logo{
-  display: flex;
-  align-items: center;
-}
-
-.logo img{
-  height: 50px;
-  margin-right: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-nav a{
-  font-weight: 600;
-  padding-right: 10px;
-}
-
-nav a:hover{
-  color:gray;
-}
-
-@media (max-width:700px){
-  header{
-      flex-direction: column;
-  }
-  nav{
-      padding: 10px 0px;
-  }
-}
-
-h1{
-  color: aqua;
-}
-
-#cart{
-  width: 50px;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-  padding-left: 10px;
-}
-
-  
 body {
-    background-image: url('imgs/fondo.jpg');
+    background-image: url('assets/fondo.jpg');
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
  
   body::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -74,13 +17,21 @@ body {
     z-index: -1;
 }
 
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: right;
+}
+
   .form-register {
     width: 500px;
     background: #24303c;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 20px;
+    border-radius: 4px;
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
@@ -104,6 +55,7 @@ body {
   }
   
   .form-register p {
+    width: auto;
     height: 40px;
     text-align: center;
     font-size: 18px;
@@ -120,8 +72,10 @@ body {
     text-decoration: underline;
   }
   
-  #boton {
-  .form-register .botons {
+  .form-register a.botons {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
     width: 100%;
     background: #1f53c5;
     border: none;
