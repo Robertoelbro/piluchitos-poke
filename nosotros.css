@@ -8,6 +8,10 @@ header{
   padding: 10px;
 }
 
+#cart{
+  width: 50px;
+}
+
 .logo{
   display: flex;
   align-items: center;
@@ -32,20 +36,8 @@ nav a:hover{
   color:gray;
 }
 
-@media (max-width:700px){
-  header{
-      flex-direction: column;
-  }
-  nav{
-      padding: 10px 0px;
-  }
-}
-
-#cart{
-  width: 50px;
-}
 body {
-    background-image: url('assets/fondo.jpg');
+    background-image: url('imgs/fondo.jpg');
     background-size: cover;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +57,13 @@ body {
 
   h2 {
     color: white;
+    font-weight: 500;
+  }
+
+  #equipo{
+    padding: auto;
+    background-color: rgba(100, 149, 237, 0.75);
+    font-weight: 500;
   }
   
   html {
@@ -92,7 +91,7 @@ body {
   }
   
   .card {
-    color: black;
+    color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 16px;
     max-width: 500px;
@@ -102,14 +101,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background: transparent;
     border-radius: 10px;
+    backdrop-filter: blur(20px);
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #474e5def;
     color: white;
   }
   
@@ -124,7 +124,8 @@ body {
   }
   
   .title {
-    color: grey;
+    color:lightgray;
+    text-align: center;
   }
   
   .button {
@@ -148,4 +149,20 @@ body {
       width: 100%;
       display: block;
     }
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  .infocor{
+    text-align: center;
+  }
+
+  #nos{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid cornflowerblue;
   }
