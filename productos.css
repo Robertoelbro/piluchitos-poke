@@ -1,0 +1,121 @@
+/*banner*/
+
+header{
+    color: white;
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(76, 133, 246);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:gray;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+#cart{
+    width: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+/* Seccion de seleccion productos */
+
+body{
+    background-color: beige;
+    background-image: url('imgs/fondo.jpg');
+    background-size:cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h3{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: burlywood;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+
+}
+
+.row button{
+    width: 200px;
+
+}
+
+.row img{
+    width: 180px;
+}
+
+#peluchifoto{
+    width: 350px;
+    display: flex;
+}
+
+#nompro{
+    font-size: large;
+}
+
+#prepro{
+    font-size: small;
+}
+
+.btn-light{
+    border-radius: 20px;
+}
+
+.modal-body button{
+    width: 200px;
+    height: 50px;
+}
