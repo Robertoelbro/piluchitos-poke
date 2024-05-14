@@ -8,14 +8,17 @@
   <title>Formulario Registro</title>
 </head>
 <body>
+  <form action="i1.html" method= "get">
   <section class="form-register">
     <h5><a href="inicio_adm.html">¿administracion? ¡Click aca!</a></h5>
     <h4>Inicio de sesion</h4>
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-    <a href="i1.html" class="botons">Iniciar sesión</a>
+    <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+    <button type="button" id="submitBtn">Iniciar Sesión</button>
     <p><a href="creacion.html">¿no tienes una cuenta? ¡crea una ya!</a></p>
   </section>
+</form>
 
+<script src="validacion_sesion.js"></script>
 </body>
 </html>

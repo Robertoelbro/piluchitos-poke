@@ -10,12 +10,40 @@
 <body>
   <section class="form-register">
     <h4>Ingreso de producto</h4>
-    <input class="controls" type="file" name="imagen del producto" id="imagen_producto" placeholder="seleccione su imagen">
-    <input class="controls" type="text" name="nombre del producto" id="nombre_producto" placeholder="Ingrese su producto">
-    <input class="controls" type="text" name="descripcion del producto" id="desc_producto" placeholder="Ingrese su descripcion">
-    <input class="controls" type="number" name="precio" id="precio_producto" placeholder="Ingrese el precio">
-    <input class="controls" type="number" name="stock del producto" id="stock" placeholder="Ingrese el stock del producto">
-    <a href="productos.html" class="botons">Registrar producto</a>
+      <input class="controls" type="file" name="imagen del producto" id="imagen_producto" placeholder="seleccione su imagen">
+      <input class="controls" type="text" name="nombre del producto" id="nombre_producto" placeholder="Ingrese el nombre del producto">
+      <input class="controls" type="textarea" name="descripcion del producto" id="desc_producto" placeholder="Ingrese su descripcion">
+      <input class="controls" type="number" name="precio" id="precio_producto" placeholder="Ingrese el precio">
+      <input class="controls" type="number" name="stock del producto" id="stock" placeholder="Ingrese el stock del producto">
+      <input class="controls" type="date" name="fecha" id="fecha" placeholder="fecha de termino del producto">
+      Marca
+      <br>
+      <input type="radio" id="opcion1" name="opcion" value="opcion 1">
+      <label for="opcion1">Pokemon company</label><br>
+      <input type="radio" id="opcion2" name="opcion" value="opcion 2">
+      <label for="opcion2">Hasbro</label><br>
+      <input type="radio" id="opcion3" name="opcion" value="opcion 3">
+      <label for="opcion3">Takara tomy</label><br>
+      <label for="tamaño">Seleccione el tipo de tamaño</label>
+      <br>
+      <select id="tamaño" name="tamaño">
+        <option value="pequeño">pequeño</option>
+        <option value="mediano">mediano</option>
+        <option value="grande">grande</option>
+        <option value="enorme">enorme</option>
+      </select>
+      <br>
+      accesorios
+      <br>
+      <input type="checkbox" id="gorro" name="gorro" value="gorro">
+      <label for="gorro">gorro</label>
+      <input type="checkbox" id="ropa" name="ropa" value="ropa">
+      <label for="ropa">ropa</label>
+      <input type="checkbox" id="shiny" name="shiny" value="shiny">
+      <label for="shiny">shiny</label>
+      <button type="button" id="submitBtn">subir producto</button>
+    
   </section>
+  <script src="validaciones_producto"></script>
 </body>
 </html>
