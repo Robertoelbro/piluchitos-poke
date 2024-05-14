@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="es.css">
 	</head>
-	<body onclick="playaudio()" and onclick="bajarVolumen()">
+	<body>
 		<!--banner-->
 		<header>
 			<div class="logo">
@@ -77,26 +77,18 @@
 			   <label for="slide3"></label>
 			   <label for="slide4"></label>
 			</div>
-		 </div>	
-		 <div class="audio">
-			<audio id="musica" loop>
-				<source src="Y2meta.app - Poké Mart [Pokémon_ Ruby & Sapphire] (320 kbps).mp3" type="audio/mpeg">
-				este navegador no acepta formatos de audio
-			</audio>
+		 </div>
+
+		<br>
+		<br>
+
+		<div class="container">
+			<h1 id="tuit">Mantente actualizado a través de twitter</h1>
+			<a class="twitter-timeline" data-lang="es" data-width="500" data-height="400" data-theme="dark" href="https://twitter.com/PokemonCenterUS?ref_src=twsrc%5Etfw">Tweets by PokemonCenterUS</a>
 		</div>
+		
 
-		 <script>
-			function playaudio(){
-				document.getElementById("musica").play();
-			}
 
-			function bajarVolumen() {
-				var audio = document.getElementById("musica");
-				if (audio.volume > 0) {
-					audio.volume -= 0.9; // Disminuye el volumen en 0.1
-				}
-			}
-		 </script>
 		<!--footer-->
 		<footer class="pie-pagina">
 			<div class="grupo-1">
@@ -126,5 +118,7 @@
 				<small>&copy; 2024 <b>Piluchitos</b> - Todos los Derechos Reservados.</small>
 			</div>
 		</footer>
+
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</body>
 </html>
