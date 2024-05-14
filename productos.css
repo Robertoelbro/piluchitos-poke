@@ -133,6 +133,13 @@ h3{
     height: 50px;
 }
 
+.container{
+  display:grid;
+  text-align: center;
+}
+
+/* footer */
+
 footer {
     position: relative;
     left: 0;
